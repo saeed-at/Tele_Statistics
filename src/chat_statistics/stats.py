@@ -35,6 +35,11 @@ class ChatStatistics:
         self.stop_words = list(map(self.normalizer.normalize,stop_words))
 
     def generate_word_cloud(self, output_dir):
+        """ Generates a word cloud for telegran json file
+
+        Args:
+            output_dir (str): path to save wordcloud.png image
+        """
         #Reading chat data
         logger.info(f"Reading data and removing stop words...")
         text_content = ''
