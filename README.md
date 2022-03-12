@@ -1,5 +1,5 @@
 # Telegram Statistics
-Export statistics for a telegram group text chat.
+Export statistics from a telegram group text chat.
 # How to Run
 First in main rep directory, run the following code to add `src` to your `PYTHONPATH`:
 ```
